@@ -7,3 +7,8 @@ var server = http.createServer(function(req, res) {
     res.end(response);
 });
 server.listen();
+
+
+const { Home } = require('./page.js');
+
+Home();
