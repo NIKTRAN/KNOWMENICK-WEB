@@ -6,9 +6,10 @@ var server = http.createServer(function(req, res) {
         response = [message, version].join('\n');
     res.end(response);
 });
-server.listen();
 
 
 const { Home } = require('./page.js');
 
 Home();
+server.listen();
+
