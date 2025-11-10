@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///home/nik/Clone%20repo/KNOWMENICK-WEB/app/page.jsx"],"sourcesContent":["export const metadata={title:'App'};\nexport default function Page(){return <main>Hello Next.js</main>}\n"],"names":[],"mappings":";;;;;;;;AAAO,MAAM,WAAS;IAAC,OAAM;AAAK;AACnB,SAAS;IAAO,qBAAO,8OAAC;kBAAK;;;;;;AAAoB","debugId":null}}]
-}

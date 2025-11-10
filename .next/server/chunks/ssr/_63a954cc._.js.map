@@ -1,1 +1,0 @@
-{"version":3,"sources":["turbopack:///[project]/app/page.jsx"],"sourcesContent":["export const metadata={title:'App'};\nexport default function Page(){return <main>Hello Next.js</main>}\n"],"names":[],"mappings":"kKACe,SAAS,IAAO,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,OAAA,UAAK,iBAAoB,mCAD1C,CAAC,MAAM,KAAK"}
