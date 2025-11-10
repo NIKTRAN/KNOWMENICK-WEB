@@ -1,1 +1,0 @@
-{"version":3,"sources":["turbopack:///[project]/app/layout.jsx"],"sourcesContent":["import './globals.css';\nexport default function RootLayout({children}){return(<html lang='en'><body>{children}</body></html>)}\n"],"names":[],"mappings":"uDACe,SAAS,EAAW,UAAC,CAAQ,CAAC,EAAE,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,OAAA,CAAK,KAAK,cAAK,CAAA,EAAA,EAAA,GAAA,EAAC,OAAA,UAAM,KAAwB"}

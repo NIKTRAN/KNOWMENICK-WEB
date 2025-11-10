@@ -1,18 +1,11 @@
 ---
 deployment:
   tasks:
-    # Adjust these two lines if your paths differ
     - export APPDIR=/home/cnffvpvlg/knownmenick-next.js
     - export NODEENV=/home/cnffvpvlg/nodevenv/knownmenick-next.js/22/bin/activate
-
-    # Load the Node 22 env that Application Manager creates
     - . "$NODEENV"
-
-    # Install & build your Next.js app (production)
     - cd "$APPDIR"
     - /bin/npm ci --no-audit --no-fund
     - /bin/npm run build
-
-    # Tell Passenger to reload the app
     - mkdir -p tmp
     - touch tmp/restart.txt
